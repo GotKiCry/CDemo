@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="top" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.sns.sdk.plugs.ad.view.SnsImageView android:layout_gravity="left" android:id="@id/logic_fc" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_margin="3.0dip" android:src="@drawable/view_ic_close" />
+    <com.android.sns.sdk.plugs.ad.view.SnsImageView android:layout_gravity="right" android:id="@id/logic_rc" android:visibility="visible" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_margin="3.0dip" android:src="@drawable/view_ic_close" android:alpha="1.0" />
+</FrameLayout>

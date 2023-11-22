@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:background="@color/tt_reward_slide_up_bg" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/tt_splash_slide_up_circle" android:background="@drawable/tt_splash_slide_up_circle" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginBottom="-24.0dip" android:layout_alignBottom="@id/tt_splash_slide_up_guide_bar" android:layout_centerHorizontal="true" android:alpha="0.0" />
+    <ImageView android:id="@id/tt_splash_slide_up_bg" android:background="@drawable/tt_splash_slide_up_bg" android:layout_width="10.0dip" android:layout_height="0.0dip" android:layout_alignBottom="@id/tt_splash_slide_up_guide_bar" android:layout_centerHorizontal="true" android:layout_marginStart="-7.0dip" android:layout_toEndOf="@id/tt_splash_slide_up_guide_bar" />
+    <ImageView android:id="@id/tt_splash_slide_up_finger" android:background="@drawable/tt_splash_slide_up_finger" android:layout_width="91.0dip" android:layout_height="68.0dip" android:layout_marginBottom="-20.0dip" android:layout_alignBottom="@id/tt_splash_slide_up_guide_bar" android:layout_centerHorizontal="true" android:alpha="0.0" android:layout_marginStart="-7.0dip" android:layout_toEndOf="@id/tt_splash_slide_up_guide_bar" />
+    <ImageView android:id="@id/tt_splash_slide_up_guide_bar" android:background="@drawable/tt_splash_slide_up_arrow" android:layout_width="14.0dip" android:layout_height="124.0dip" android:layout_centerHorizontal="true" />
+    <TextView android:textColor="#ffffffff" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/tt_reward_slip_up_tip2" android:layout_below="@id/tt_splash_slide_up_guide_bar" />
+</RelativeLayout>

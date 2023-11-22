@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" android:installLocation="auto" package="com.haishangshengcun.nearme.gamecenter" platformBuildVersionCode="30" platformBuildVersionName="11">
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="true" android:xlargeScreens="true"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-feature android:glEsVersion="0x00020000"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-feature android:name="android.hardware.sensor.accelerometer" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen.multitouch" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen.multitouch.distinct" android:required="false"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+    <permission android:name="com.haishangshengcun.nearme.gamecenter.heytap.msp.mobad.BROADCAST_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.haishangshengcun.nearme.gamecenter.heytap.msp.mobad.BROADCAST_PERMISSION"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.MAIN"/>
+            <category android:name="android.intent.category.LAUNCHER"/>
+        </intent>
+        <package android:name="com.android.creator"/>
+        <package android:name="com.zhuoyi.security.lite"/>
+        <package android:name="com.freeme.secureguard"/>
+        <package android:name="com.android.secureguard"/>
+        <package android:name="com.mdid.msa"/>
+        <package android:name="com.samsung.android.deviceidservice"/>
+        <package android:name="com.coolpad.deviceidsupport"/>
+        <package android:name="com.heytap.openid"/>
+    </queries>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <uses-permission android:name="com.haishangshengcun.nearme.gamecenter.openadsdk.permission.TT_PANGOLIN"/>
+    <uses-permission android:name="com.asus.msa.SupplementaryDID.ACCESS"/>
+    <permission android:name="com.haishangshengcun.nearme.gamecenter.openadsdk.permission.TT_PANGOLIN" android:protectionLevel="signature"/>
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="https"/>
+        </intent>
+        <package android:name="com.ss.android.ugc.aweme"/>
+        <package android:name="com.ss.android.ugc.aweme.lite"/>
+    </queries>
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.MAIN"/>
+            <category android:name="android.intent.category.LAUNCHER"/>
+        </intent>
+    </queries>
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="https"/>
+        </intent>
+        <package android:name="com.ss.android.ugc.aweme"/>
+        <package android:name="com.ss.android.ugc.aweme.lite"/>
+    </queries>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="freemme.permission.msa"/>
+    <uses-permission android:name="freemme.permission.msa.SECURITY_ACCESS"/>
+    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:icon="@drawable/app_icon" android:label="@string/app_name" android:name="com.android.sns.sdk.SNSGameApplication" android:supportsRtl="true" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" android:usesCleartextTraffic="true">
+        <meta-data android:name="unityplayer.SkipPermissionsDialog" android:value="true"/>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:exported="true" android:name="com.android.sns.sdk.activity.LogoActivity" android:screenOrientation="landscape" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="com.android.sns.sdk.activity.SnsSplashActivity" android:screenOrientation="landscape" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="com.android.sns.sdk.activity.UserLoginActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:name="com.android.sns.sdk.activity.SnsProxyActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:label="@string/app_name" android:launchMode="singleTask" android:name="com.game.UnityPlayerActivity" android:screenOrientation="landscape">
+            <meta-data android:name="unityplayer.UnityActivity" android:value="true"/>
+        </activity>
+        <meta-data android:name="appID" android:value="8194"/>
+        <meta-data android:name="companyID" android:value="9606"/>
+        <meta-data android:name="debug_mode" android:value="false"/>
+        <meta-data android:name="is_offline_game" android:value="true"/>
+        <meta-data android:name="app_key" android:value="c07d80c9103141e49358d527993acf35"/>
+        <meta-data android:name="com.heytap.msp:mobad" android:value="5.6.0"/>
+        <provider android:authorities="com.haishangshengcun.nearme.gamecenter.gdt.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.heytap.msp.mobad.api.GDTFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/gdt_file_path"/>
+        </provider>
+        <service android:exported="false" android:multiprocess="true" android:name="com.qq.e.comm.DownloadService"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:multiprocess="true" android:name="com.qq.e.ads.ADActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:multiprocess="true" android:name="com.qq.e.ads.PortraitADActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:multiprocess="true" android:name="com.qq.e.ads.LandscapeADActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.Light.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:multiprocess="true" android:name="com.qq.e.ads.RewardvideoPortraitADActivity" android:theme="@android:style/Theme.Light.NoTitleBar">
+            <meta-data android:name="android.notch_support" android:value="true"/>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:multiprocess="true" android:name="com.qq.e.ads.RewardvideoLandscapeADActivity" android:screenOrientation="landscape" android:theme="@android:style/Theme.Light.NoTitleBar">
+            <meta-data android:name="android.notch_support" android:value="true"/>
+        </activity>
+        <activity android:multiprocess="true" android:name="com.qq.e.ads.DialogActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.opos.cmn.an.transactivity.api.TransActivity" android:theme="@style/OposAdTransTheme"/>
+        <provider android:authorities="com.haishangshengcun.nearme.gamecenter.TTMultiProvider" android:exported="false" android:name="com.bytedance.sdk.openadsdk.multipro.TTMultiProvider"/>
+        <activity android:exported="false" android:name="com.ss.android.downloadlib.addownload.compliance.AppPrivacyPolicyActivity"/>
+        <activity android:exported="false" android:name="com.ss.android.downloadlib.addownload.compliance.AppDetailInfoActivity"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.ss.android.downloadlib.activity.TTDelegateActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.ss.android.downloadlib.activity.JumpKllkActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <receiver android:exported="false" android:name="com.ss.android.downloadlib.core.download.DownloadReceiver"/>
+        <service android:exported="false" android:name="com.ss.android.socialbase.appdownloader.DownloadHandlerService" android:stopWithTask="true"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.ss.android.socialbase.appdownloader.view.DownloadTaskDeleteActivity" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.ss.android.socialbase.appdownloader.view.JumpUnknownSourceActivity" android:theme="@android:style/Theme.Dialog"/>
+        <service android:enabled="true" android:exported="false" android:name="com.ss.android.socialbase.appdownloader.RetryJobSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE" android:stopWithTask="true"/>
+        <service android:exported="false" android:name="com.ss.android.socialbase.downloader.downloader.IndependentProcessDownloadService" android:process=":downloader">
+            <intent-filter>
+                <action android:name="com.ss.android.socialbase.downloader.remote"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.ss.android.socialbase.downloader.notification.DownloadNotificationService" android:stopWithTask="true"/>
+        <service android:exported="false" android:name="com.ss.android.socialbase.downloader.downloader.DownloadService" android:stopWithTask="true"/>
+        <service android:exported="false" android:name="com.ss.android.socialbase.downloader.impls.DownloadHandleService" android:stopWithTask="true"/>
+        <service android:exported="false" android:name="com.ss.android.socialbase.downloader.downloader.SqlDownloadCacheService" android:stopWithTask="true"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.bytedance.embedapplog.collector.Collector"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.core.activity.base.TTNativePageActivity" android:theme="@style/tt_landing_page" android:windowSoftInputMode="stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.core.activity.base.TTWebPageActivity" android:theme="@style/tt_landing_page" android:windowSoftInputMode="stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.core.activity.base.TTMiddlePageActivity" android:screenOrientation="portrait" android:theme="@style/tt_landing_page" android:windowSoftInputMode="stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.core.activity.base.TTPlayableWebPageActivity" android:theme="@style/tt_landing_page" android:windowSoftInputMode="stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.core.activity.base.TTVideoWebPageActivity" android:theme="@style/tt_landing_page" android:windowSoftInputMode="stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.core.activity.base.TTVideoScrollWebPageActivity" android:theme="@style/tt_landing_page" android:windowSoftInputMode="stateHidden"/>
+        <activity android:exported="false" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.core.activity.base.TTDelegateActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.core.component.reward.activity.TTRewardVideoActivity" android:screenOrientation="portrait" android:theme="@style/tt_full_screen_no_animation"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.core.component.reward.activity.TTFullScreenVideoActivity" android:screenOrientation="portrait" android:theme="@style/tt_full_screen_no_animation"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.core.component.reward.activity.TTRewardVideoLandscapeActivity" android:screenOrientation="landscape" android:theme="@style/tt_full_screen_no_animation"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="standard" android:name="com.bytedance.sdk.openadsdk.core.component.reward.activity.TTFullScreenVideoLandscapeActivity" android:screenOrientation="landscape" android:theme="@style/tt_full_screen_no_animation"/>
+        <service android:exported="false" android:name="com.bytedance.sdk.openadsdk.core.multipro.aidl.BinderPoolService"/>
+        <provider android:authorities="com.haishangshengcun.nearme.gamecenter.MobFileProvider" android:exported="false" android:grantUriPermissions="true" android:name="com.heytap.msp.mobad.api.MobFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/mobad_file_paths"/>
+        </provider>
+        <service android:exported="false" android:name="com.opos.mobad.service.DownloadService" android:process=":ad"/>
+        <provider android:authorities="com.haishangshengcun.nearme.gamecenter.MobAdGlobalProvider" android:exported="false" android:name="com.opos.mobad.provider.MobAdGlobalProvider"/>
+        <service android:name="com.opos.mobad.service.AdService"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:name="com.opos.mobad.activity.AdActivity" android:screenOrientation="sensor"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:name="com.opos.mobad.activity.VideoActivity" android:screenOrientation="sensor" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <provider android:authorities="com.haishangshengcun.nearme.gamecenter.TTFileProvider" android:exported="false" android:grantUriPermissions="true" android:name="com.bytedance.sdk.openadsdk.TTFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/tt_file_paths"/>
+        </provider>
+        <activity android:name="com.opos.cmn.biz.web.activity.apiimpl.AdWebActivity" android:theme="@style/AdWebLightOrDarkTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:name="com.nearme.game.sdk.component.proxy.JumpToProxyActivity" android:process=":gcsdk" android:theme="@style/Theme_Dialog_Custom"/>
+        <provider android:authorities="com.haishangshengcun.nearme.gamecenter.MspFileProvider" android:exported="false" android:grantUriPermissions="true" android:name="com.heytap.msp.sdk.MspFileProvider" android:process=":gcsdk">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths"/>
+        </provider>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.nearme.game.sdk.component.proxy.ProxyActivity" android:process=":gcsdk" android:theme="@style/Theme_Dialog_Custom"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.oppo.usercenter.opensdk.dialog.register.UserCenterOperateActivity" android:process=":gcsdk" android:theme="@style/Theme_Dialog_Custom"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:launchMode="singleTask" android:name="com.nearme.game.sdk.component.proxy.ExitActivity" android:process=":gcsdk" android:theme="@style/Theme_Dialog_Custom"/>
+        <service android:name="com.nearme.game.sdk.component.proxy.ProxyApiService" android:priority="1000" android:process=":gcsdk"/>
+        <receiver android:exported="true" android:name="com.nearme.game.sdk.component.proxy.ProxyUserCenterOperateReceiver" android:process=":gcsdk">
+            <intent-filter>
+                <action android:name="com.oppo.usercenter.account_login"/>
+                <action android:name="com.oppo.usercenter.account_logout"/>
+                <action android:name="com.oppo.usercenter.modify_name"/>
+                <action android:name="com.usercenter.action.receiver.account_login"/>
+                <action android:name="com.heytap.usercenter.account_logout"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="true" android:name="com.nearme.game.sdk.common.serice.OutPutFileService">
+            <intent-filter>
+                <action android:name="gusdk.children.discern.data"/>
+            </intent-filter>
+        </service>
+        <meta-data android:name="com.huawei.hms.client.service.name:ads-identifier" android:value="ads-identifier:3.4.62.300"/>
+        <activity android:configChanges="fontScale|keyboard|keyboardHidden|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:exported="true" android:name="com.android.sns.sdk.activity.DeeplinkActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="com.haishangshengcun.nearme.gamecenter" android:path="/logo" android:port="9000" android:scheme="sns"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

@@ -1,0 +1,29 @@
+version: 2.9.0
+apkFileName: HaiShangShengCun.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 21
+  targetSdkVersion: 30
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 37
+  versionName: 306.1.36.3018
+resourcesAreCompressed: false
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  androidsupportmultidexversion.txt: 8
+doNotCompress:
+- resources.arsc
+- png
+- assets/bin/Data/sharedassets0.resource
+- gif
+- jpg
+- webp
+- jpeg

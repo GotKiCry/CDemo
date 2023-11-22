@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="abc_allow_stacked_button_bar">false</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="lg_account_can_show_guest_login_button">true</bool>
+    <bool name="lg_account_guest_login_switch">true</bool>
+    <bool name="lg_account_nick_name_system_switch">true</bool>
+    <bool name="lg_account_silent_login_fail_show_toast_switch">true</bool>
+    <bool name="lg_debug_switch">false</bool>
+    <bool name="lg_health_advice_switch">false</bool>
+    <bool name="lg_splash_effect_switch_v2">false</bool>
+    <bool name="mtrl_btn_textappearance_all_caps">true</bool>
+</resources>

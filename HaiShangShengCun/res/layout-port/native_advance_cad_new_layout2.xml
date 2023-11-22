@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.heytap.msp.mobad.api.params.NativeAdvanceContainer android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/ad_mask_view" android:background="#8c000000" android:visibility="visible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/native_video_view" android:visibility="visible" android:layout_width="350.0dip" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+        <RelativeLayout android:id="@id/background_top" android:layout_width="fill_parent" android:layout_height="60.0dip">
+            <TextView android:textSize="22.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/ad_title_text" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/ad_title" android:singleLine="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <FrameLayout android:id="@id/ad_view" android:layout_width="fill_parent" android:layout_height="200.0dip">
+            <com.heytap.msp.mobad.api.params.MediaView android:layout_gravity="center_horizontal" android:id="@id/video_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="180.0dip" android:scaleType="fitXY" />
+            <ImageView android:layout_gravity="center" android:id="@id/ad_media" android:layout_width="290.0dip" android:layout_height="190.0dip" />
+        </FrameLayout>
+        <RelativeLayout android:id="@id/background_bottom" android:layout_width="fill_parent" android:layout_height="60.0dip">
+            <TextView android:textSize="15.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/ad_content_text" android:layout_width="240.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/ad_content" android:singleLine="true" android:layout_centerHorizontal="true" />
+            <ImageButton android:id="@id/ad_flag" android:background="@drawable/oppo_native_logo_img" android:visibility="visible" android:layout_width="30.0dip" android:layout_height="16.0dip" android:layout_marginLeft="15.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dip">
+            <ImageView android:id="@id/ad_btn" android:layout_width="120.0dip" android:layout_height="50.0dip" />
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/ad_btn_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/ad_btn_text" />
+        </FrameLayout>
+    </LinearLayout>
+</com.heytap.msp.mobad.api.params.NativeAdvanceContainer>

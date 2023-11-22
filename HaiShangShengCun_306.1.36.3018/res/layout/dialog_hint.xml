@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/dialog_bg_content" android:layout_width="310.0dip" android:layout_height="220.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/dialog_hint_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="登录提示" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="120.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="120.0dip">
+            <TextView android:textSize="15.0dip" android:textColor="#ffffffff" android:id="@id/dialog_hint_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="  根据国家政策要求，您需要登录并实名认证后才能继续进行游戏。点击登录按钮进行登录" />
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <Button android:textSize="18.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/dialog_hint_negative" android:background="#ffadadad" android:layout_width="100.0dip" android:layout_height="35.0dip" android:layout_marginRight="50.0dip" android:text="退出游戏" />
+        <Button android:textSize="18.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/dialog_hint_positive" android:background="#ffadadad" android:layout_width="100.0dip" android:layout_height="35.0dip" android:text="登录" />
+    </LinearLayout>
+</LinearLayout>

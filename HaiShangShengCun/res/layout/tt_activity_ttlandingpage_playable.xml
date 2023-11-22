@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <FrameLayout android:id="@id/tt_webview_container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <include layout="@layout/tt_activity_landing_backup" />
+            <com.bytedance.sdk.openadsdk.widget.PlayableLoadingView android:id="@id/tt_playable_loading" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <FrameLayout android:id="@id/tt_playable_video_container" android:background="@color/tt_transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.bytedance.sdk.openadsdk.core.playable.PlayableVideoContainer android:layout_gravity="center|right|top" android:id="@id/tt_playable_video_container_vertical" android:background="@color/tt_transparent" android:visibility="gone" android:layout_width="73.0dip" android:layout_height="130.0dip" android:layout_marginTop="55.0dip" android:layout_marginEnd="30.0dip" />
+                <com.bytedance.sdk.openadsdk.core.playable.PlayableVideoContainer android:layout_gravity="center|right|top" android:id="@id/tt_playable_video_container_horizontal" android:background="@color/tt_transparent" android:visibility="gone" android:layout_width="156.0dip" android:layout_height="87.0dip" android:layout_marginTop="55.0dip" android:layout_marginEnd="20.0dip" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/tt_playable_top_bar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.bytedance.sdk.openadsdk.widget.ShadowImageView android:gravity="center" android:id="@id/tt_playable_ad_mute" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="20.0dip" android:src="@drawable/tt_unmute" android:scaleType="center" android:layout_marginStart="12.0dip" />
+                <com.bytedance.sdk.openadsdk.widget.ShadowTextView android:textSize="14.0sp" android:textColor="@color/tt_white" android:gravity="center" android:layout_gravity="end|center|top" android:id="@id/tt_playable_ad_dislike" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="80.0dip" android:text="@string/tt_reward_feedback" android:layout_marginEnd="80.0dip" />
+                <com.bytedance.sdk.openadsdk.widget.ShadowTextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="end|center|top" android:id="@id/tt_playable_ad_count_down" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="16.0dip" android:layout_marginEnd="16.0dip" />
+                <RelativeLayout android:gravity="center" android:layout_gravity="end|center|top" android:id="@id/tt_playable_ad_close_layout" android:background="@drawable/tt_mute_btn_bg" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="24.0dip" android:layout_marginEnd="24.0dip">
+                    <ImageView android:id="@id/tt_playable_ad_close" android:visibility="visible" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/tt_video_close_drawable" />
+                </RelativeLayout>
+            </FrameLayout>
+        </FrameLayout>
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/tt_pl_pre_5element_container" android:background="#ff161823" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

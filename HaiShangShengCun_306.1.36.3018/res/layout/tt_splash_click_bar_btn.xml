@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/tt_splash_click_bar_btn" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/tt_splash_click_bar_body" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <com.bytedance.sdk.openadsdk.core.component.splash.RockView android:id="@id/tt_splash_rock_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/tt_splash_text_area" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/tt_splash_click_bar_text_area" android:layout_centerHorizontal="true">
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/tt_splash_wriggle_group" android:background="@drawable/tt_splash_rock_circle" android:visibility="gone" android:layout_width="110.0dip" android:layout_height="110.0dip" android:layout_marginBottom="4.0dip">
+                    <com.bytedance.sdk.component.adexpress.widget.WriggleGuideView android:id="@id/tt_splash_progress_img" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="20.0dip" />
+                    <ImageView android:id="@id/tt_splash_top_img" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/tt_splash_twist" />
+                </LinearLayout>
+                <com.bytedance.sdk.openadsdk.core.component.splash.SlideUpView android:id="@id/tt_splash_slide_up_img" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="200.0dip" android:layout_marginTop="-140.0dip" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/tt_splash_click_bar_text_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/tt_splash_top_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tt_splash_click_bar_text" android:singleLine="true" />
+                <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/tt_splash_click_bar_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tt_splash_click_bar_text" android:singleLine="true" android:shadowColor="#4d000000" android:shadowDx="0.0" android:shadowDy="0.5" android:shadowRadius="2.0" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

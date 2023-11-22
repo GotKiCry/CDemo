@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/dialog_bg_content" android:layout_width="310.0dip" android:layout_height="300.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <TextView android:textSize="20.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/dialog_detail_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="用户协议" />
+    </LinearLayout>
+    <FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="220.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="220.0dip">
+            <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:id="@id/dialog_detail_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="" />
+        </ScrollView>
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <Button android:id="@id/dialog_btn_detail_confirm" android:background="@drawable/dialog_btn_confirm" android:layout_width="100.0dip" android:layout_height="35.0dip" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.heytap.msp.mobad.api.params.NativeAdvanceContainer android:id="@id/view_ad_container" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/native_video_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="72.0dip" android:layout_centerVertical="true">
+            <TextView android:textSize="8.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="center" android:id="@id/view_title" android:focusable="true" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:scrollHorizontally="true" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" android:layout_alignParentEnd="true" />
+            <TextView android:textSize="8.0sp" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="center" android:id="@id/view_desc" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scrollHorizontally="true" android:singleLine="true" android:layout_alignParentBottom="true" android:marqueeRepeatLimit="marquee_forever" android:layout_alignParentEnd="true" />
+            <Button android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/click_btn_text" android:background="@drawable/native_button_rounded_corners_shape" android:visibility="gone" android:clickable="false" android:layout_width="100.0dip" android:layout_height="40.0dip" android:layout_marginLeft="180.0dip" android:layout_marginRight="20.0dip" android:singleLine="true" android:layout_centerInParent="true" android:layout_alignParentEnd="true" />
+            <ImageView android:id="@id/fc_next_image" android:visibility="gone" android:layout_width="160.0dip" android:layout_height="65.0dip" android:layout_margin="3.0dip" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/fc_close_btn" android:background="@drawable/oppo_native_close_bn_bg_img" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <ImageView android:background="@drawable/bg_mask" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/view_icon" android:layout_width="23.0dip" android:layout_height="23.0dip" />
+        <ImageView android:id="@id/view_ad_image" android:layout_width="41.0dip" android:layout_height="22.0dip" />
+        <ImageView android:id="@id/close_btn" android:background="@drawable/view_ic_close" android:visibility="gone" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_margin="0.0dip" android:layout_alignParentLeft="true" />
+        <ImageView android:id="@id/ad_logo2" android:visibility="gone" android:layout_width="35.0dip" android:layout_height="18.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        <ImageView android:layout_gravity="center" android:background="@drawable/view_ic_shake" android:layout_width="170.0dip" android:layout_height="56.0dip" android:layout_marginTop="14.0dip" android:layout_centerInParent="true" />
+        <ImageView android:background="@drawable/view_ic_close" android:visibility="visible" android:layout_width="55.0dip" android:layout_height="55.0dip" android:layout_marginRight="5.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <ImageView android:background="@drawable/view_ic_close" android:visibility="visible" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="5.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/ad_logo" android:background="@drawable/oppo_native_logo_img" android:visibility="visible" android:layout_width="28.0dip" android:layout_height="15.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</com.heytap.msp.mobad.api.params.NativeAdvanceContainer>

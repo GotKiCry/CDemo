@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="360.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="25.0dip" android:layout_marginTop="3.0dip">
+        <TextView android:textSize="18.0dip" android:textColor="#ff000000" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="用户隐私协议" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <TextView android:textSize="12.0dip" android:textColor="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="我们会遵循隐私政策收集、使用信息、但不会仅因同意本政策而采用强制捆绑的方式收集信息。 为了提供完整的游戏体验，我们会向您申请必要的权限和信息。您可选择同意或拒绝权限申请，如果拒绝可能会导致部分游戏体验异常。权限和信息包括：\n存储权限：目的为了实现账号、图片的缓存和使用，图片保存与分享\n电话权限：目的为验证用户身份、实现手机号码登录功能\n设备信息：读取Android-ID、硬件序列号、IMEI、手机号、OAID、MAC地址信息目的为保护账号安全" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="25.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip">
+        <CheckBox android:id="@id/dialog_read_check" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:button="@drawable/dialog_checkbox_selector" />
+        <TextView android:textSize="12.0dip" android:textColor="#ff000000" android:id="@id/dialog_proto_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" " />
+        <TextView android:textSize="12.0dip" android:textColor="#ff02cbf7" android:gravity="center" android:id="@id/qc_button_yhxy" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="25.0dip" android:text="《用户协议》" />
+        <TextView android:textSize="12.0dip" android:textColor="#ff73a3c2" android:gravity="center" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="25.0dip" android:text="和" />
+        <TextView android:textSize="12.0dip" android:textColor="#ff02cbf7" android:gravity="center" android:id="@id/qc_button_yszc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="25.0dip" android:text="《隐私政策》" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip">
+        <TextView android:textColor="#ff000000" android:gravity="center" android:id="@id/dialog_proto_negative" android:layout_width="0.0dip" android:layout_height="35.0dip" android:text="不同意" android:layout_weight="1.0" />
+        <Button android:textColor="#ffffffff" android:id="@id/dialog_proto_positive" android:background="#ff3399ff" android:layout_width="0.0dip" android:layout_height="35.0dip" android:text="同意" android:layout_weight="2.0" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,82 @@
+0,box_1,,,1,0
+1,box_2,,,1,0
+2,box_3,,,1,0
+1000,gold,,,99999999,0
+1001,plank,A simple plank.,Icon_Plank,99,30
+1002,scrap,Some metal junk.,Icon_Scrap,99,30
+1003,rag,Crafting material.,Icon_Thatch,99,30
+1004,stone,A little stone.,Icon_Stone,99,1
+1005,coal,A small piece of coal.,Icon_Coal,99,1
+1006,soil,A pile of soil.,Icon_Soil,99,1
+1007,nail,A useful resource when crafting.,Icon_Nail,99,1
+1008,empty tincan,Can be filled with saltwater.,Icon_EmptyTincan,5,6
+1009,iron,Can be forged into advanced tools.,Icon_Iron,99,1
+1010,rope,Crafting material.,Icon_Rope,99,1
+2000,salt water,Can be purified to create drinkable water.,Icon_SaltWater,5,3
+2001,drinkable water,Drinkable water.,Icon_DrinkableWater,5,3
+2002,cooked potato,A solid piece of food.,Icon_CookedPotato,10,2
+2003,raw mackerel,Raw but still edible. Contains more protein if cooked.,Icon_RawMackerel,10,2
+2004,cooked mackerel,Contains a lot of protein.,Icon_CookedMackerel,10,2
+2005,meat,Raw but still edible. Contains more protein if cooked.,Icon_Meat,10,2
+2006,roast meat,Contains a lot of protein.,Icon_RoastMeat,10,2
+2007,fish with potatoes,With balanced nutritious and appealing menus.,Icon_FishWithPotatoes,5,2
+2008,chowder,Mixed and delicious.,Icon_Chowder,5,2
+2009,carrot,Can be cooked.,Icon_Carrot,10,2
+2010,carrot seed,Can be planted.,Icon_CarrotSeed,10,2
+2011,raw potato,Can be cooked or planted.,Icon_RawPotato,10,2
+2012,palm seed ,Requires a big enough crop plot in order for it to grow.,Icon_PalmSeed,10,2
+2013,octopus foot,Can be cooked.,Icon_OctopusFoot,10,2
+2014,cooked octopus foot,Delicious and healthy.,Icon_CookedOctopusFoot,10,2
+2015,bandage,Can hemostasis.,Icon_Bandage,10,5
+2016,first-aid kit,Can deal with emergency.,Icon_First-AidKit,10,5
+2017,empty wine barrel,Used to hold wine,Icon_EmptyWineBarrel,10,1
+2018,wine barrel,A barrel of wine,Icon_WineBarrel,10,3
+3000,hook,Used to gather debris from the ocean.,Icon_Hook,1,6
+3001,hammer,More powerful and easy to fight.,Icon_Hammer,1,6
+3002,spear,Useful for defending your raft.,Icon_Spear,1,6
+3003,axe,Can be used to chop down trees.,Icon_Axe,1,6
+3004,fishing rod,Used to catch fishes.,Icon_FishingRod,1,6
+3005,pickaxe,Used to mining.,Icon_Pickaxe,1,6
+4001,chest,Stores items.,Icon_Chest,1,4
+4002,water purifier,Purifies salt water into drinkable water.,Icon_WaterPurifier,1,4
+4003,cooking station,Cooks simple cookings.,Icon_CookingStation,1,4
+4005,furnace,Can smelting the iron.,Icon_Furnace,1,4
+4007,cooking pot,Cooks complex cookings.,Icon_CookingPot,1,4
+4008,distiller,Put in the material to make wine.,Icon_Distiller,1,4
+4009,simple cropplot,A place to plant your seeds.,Icon_SimpleCropplot,1,4
+4010,tree cropplot,Has enough space to contain one type of tree.,Icon_TreeCropplot,1,4
+4011,shipway,Can build the raft.,Icon_ShipWay,1,4
+4012,item net,Used to catch items floating by.,Icon_ItemNet,1,4
+5000,mast,,Icon_Mast,1,0
+5001,anchor,,Icon_Anchor,1,0
+5002,simple sail,,Icon_SimpleSail,1,0
+5003,oar,,Icon_Oar,1,0
+5004,raft,,Icon_Raft,1,0
+5005,boat,,Icon_Boat,1,0
+5006,ship,,Icon_Ship,1,0
+6000,base,,Icon_Base,1,0
+6001,window,,Icon_Window,1,0
+6002,door,,Icon_Door,1,0
+6003,wall,,Icon_Wall,1,0
+6004,stairs,,Icon_Stairs,1,0
+6005,bed,,Icon_Bed,1,0
+6006,chair,,Icon_Chair,1,0
+6007,table,,Icon_Table,1,0
+6008,pillar,,Icon_Pillar,1,0
+6009,fence,,Icon_Fence,1,0
+7000,small palm,,Icon_SmallPalm,1,0
+7001,meddle palm,,Icon_MeddlePalm,1,0
+7002,palm tree,,Icon_PalmTree,1,0
+7003,small potato,,Icon_RawPotato,1,0
+7004,potato tree,,Icon_PotatoTree,1,0
+7005,small carrot,,Icon_CarrotSeed,1,0
+7011,carrot tree,,Icon_Carrot,1,0
+7006,island tree,,,1,0
+7007,island stone,,,1,0
+7008,island iron,,,1,0
+7009,island coal,,,1,0
+7010,island soil,,,1,0
+8000,shark,,,1,0
+8001,octopus,,,1,0
+8002,wolf,,,1,0
+8003,bear,,,1,0

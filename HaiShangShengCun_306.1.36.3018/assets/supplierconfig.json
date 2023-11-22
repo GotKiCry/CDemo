@@ -1,0 +1,1 @@
+{  "supplier":{    "vivo":{      "appid":"${vivoId}"    },    "xiaomi":{      "appid":"${miId}"    },    "huawei":{      "appid":"${hwId}"    },    "oppo":{      "appid":"30744533"    }  }}

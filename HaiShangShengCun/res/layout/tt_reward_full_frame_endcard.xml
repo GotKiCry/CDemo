@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.bytedance.sdk.component.widget.SSWebView android:id="@id/tt_reward_browser_webview" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layerType="hardware" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.bytedance.sdk.openadsdk.core.component.reward.view.PlayableEndcardFrameLayout android:id="@id/tt_reward_browser_fl" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.bytedance.sdk.component.widget.SSWebView android:id="@id/tt_reward_browser_webview_playable" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layerType="hardware" />
+            <FrameLayout android:id="@id/tt_reward_ugeno_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <include layout="@layout/tt_activity_reward_and_full_endcard" />
+            <com.bytedance.sdk.openadsdk.widget.PlayableLoadingView android:id="@id/tt_reward_playable_loading" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.bytedance.sdk.openadsdk.core.component.reward.view.lp.RewardLpBottomView android:layout_gravity="bottom" android:id="@id/tt_reward_lp_bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </com.bytedance.sdk.openadsdk.core.component.reward.view.PlayableEndcardFrameLayout>
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/tt_pl_pre_5element_end_card_container" android:background="#ff161823" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/tt_playable_video_container" android:background="@color/tt_transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.bytedance.sdk.openadsdk.core.playable.PlayableVideoContainer android:layout_gravity="center|right|top" android:id="@id/tt_playable_video_container_vertical" android:background="@color/tt_transparent" android:visibility="gone" android:layout_width="73.0dip" android:layout_height="130.0dip" android:layout_marginTop="55.0dip" android:layout_marginEnd="30.0dip" />
+        <com.bytedance.sdk.openadsdk.core.playable.PlayableVideoContainer android:layout_gravity="center|right|top" android:id="@id/tt_playable_video_container_horizontal" android:background="@color/tt_transparent" android:visibility="gone" android:layout_width="156.0dip" android:layout_height="87.0dip" android:layout_marginTop="55.0dip" android:layout_marginEnd="20.0dip" />
+    </FrameLayout>
+</FrameLayout>

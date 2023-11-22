@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.heytap.msp.mobad.api.params.NativeAdvanceContainer android:layout_gravity="center" android:id="@id/native_video_view" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.sns.sdk.plugs.ad.view.MarqueeView android:layout_gravity="center" android:id="@id/background" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/ad_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="4.0dip">
+        <ImageView android:id="@id/ad_media" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.heytap.msp.mobad.api.params.MediaView android:id="@id/video_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        <ImageButton android:layout_gravity="right" android:id="@id/native_close" android:background="@drawable/oppo_native_close_bn_bg_img" android:visibility="visible" android:layout_width="10.0dip" android:layout_height="10.0dip" />
+        <ImageView android:layout_gravity="bottom" android:id="@id/ad_flag" android:layout_width="20.0dip" android:layout_height="11.0dip" android:src="@drawable/oppo_native_logo_img" />
+    </FrameLayout>
+</com.heytap.msp.mobad.api.params.NativeAdvanceContainer>
